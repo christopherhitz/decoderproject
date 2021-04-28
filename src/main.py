@@ -14,7 +14,7 @@ from   models.train_and_predict_model import LSTMDecoder
 from   pathlib import Path
 #from   bayes_opt         import BayesianOptimization
 
-fname = Path("LeWagonProject/lewagonproject/src/data/trial_data_0411.mat")
+fname = Path("src/data/trial_data_0411.mat")
 print(fname.name)
 # prints "raw_data.txt"
 print(fname.suffix)
@@ -88,7 +88,7 @@ R2_lstm     = []
 rho2_lstm   = []
 best_params = []
 #Load previously saved best parameters
-fname = Path("lewagonproject/models/best_params.pckl")
+fname = Path("src/data/models/best_params.pckl")
 print(fname.name)
 # prints "raw_data.txt"
 print(fname.suffix)
