@@ -14,7 +14,7 @@ from   models.train_and_predict_model import LSTMDecoder
 from   pathlib import Path
 #from   bayes_opt         import BayesianOptimization
 
-fname = Path("lewagonproject/src/data/trial_data_0411.mat")
+fname = Path("LeWagonProject/lewagonproject/src/data/trial_data_0411.mat")
 print(fname.name)
 # prints "raw_data.txt"
 print(fname.suffix)
