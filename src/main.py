@@ -171,7 +171,7 @@ print('\nrho2 = ' + str(np.mean(rho2_lstm, axis = 0)))
 print('\nR2 = ' + str(np.mean(R2_lstm, axis = 0)))
 
 #%%Save the best parameters for each fold
-f2 = open('lewagonproject/models/best_params.pckl', 'wb')
+f2 = open('src/models/best_params.pckl', 'wb')
 pickle.dump(best_params, f2)
 f2.close()
 
