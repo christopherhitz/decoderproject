@@ -88,7 +88,7 @@ R2_lstm     = []
 rho2_lstm   = []
 best_params = []
 #Load previously saved best parameters
-fname = Path("src/data/models/best_params.pckl")
+fname = Path("src/models/best_params.pckl")
 print(fname.name)
 # prints "raw_data.txt"
 print(fname.suffix)
